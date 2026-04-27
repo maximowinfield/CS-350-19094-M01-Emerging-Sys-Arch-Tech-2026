@@ -1,119 +1,19 @@
-# CS-350-19094-M01-Emerging-Sys-Arch-Tech-2026
-Coursework and projects for CS-350 Emerging Systems Architecture and Technologies, featuring Raspberry Pi programming, embedded systems development, state machines, sensor integration, and an IoT thermostat final project.
+# Project Reflection
 
-CS-350 Emerging Systems Architecture and Technologies
-Overview
-This repository contains coursework and hands-on lab projects completed for CS-350 Emerging Systems Architecture and Technologies. The course focused on embedded systems concepts, Internet of Things (IoT) development, and hardware-software integration using a Raspberry Pi environment.
-Through a series of progressive labs and a final project, I gained practical experience designing, coding, testing, and troubleshooting real-time embedded applications that interact with physical hardware components.
-Skills and Technologies Demonstrated
+## Summarize the project and what problem it was solving
+The final project was the development of a smart thermostat prototype using a Raspberry Pi, Python, sensors, buttons, LEDs, and an LCD display. The system solved a real-world environmental monitoring and control problem by simulating how an embedded thermostat can monitor room temperature, manage heating and cooling states, and provide user interaction through hardware controls. The project brought together embedded systems architecture, state machine logic, and hardware/software integration into a functional Internet of Things (IoT) application.
 
+## What did you do particularly well?
+One area I did particularly well was integrating multiple components into a cohesive system. I successfully combined GPIO control, sensor input, state transitions, and LCD output while troubleshooting both software and hardware issues throughout development. I also did well documenting wiring, testing behavior incrementally, and validating requirements against project specifications before final submission.
 
-Python Programming for embedded and hardware-interfacing applications
+## Where could you improve?
+One area for improvement would be expanding the system with more advanced features such as persistent setpoint storage, improved exception handling, or more modular abstraction for hardware interfaces. I could also continue improving efficiency in debugging embedded systems, particularly when diagnosing hardware faults versus software logic errors.
 
+## What tools and/or resources are you adding to your support network?
+This project reinforced the value of several resources I plan to continue using, including official Raspberry Pi and Python documentation, GPIO library references, hardware datasheets, GitHub examples, and embedded systems communities. I am also adding state machine modeling techniques and broader IoT design references to my long-term support toolkit.
 
-Raspberry Pi Development in a Linux environment
+## What skills from this project will be particularly transferable to other projects and/or course work?
+Several skills from this project transfer directly to future work, including Python programming, debugging strategies, modular design, event-driven programming, and interpreting system requirements. The project also strengthened skills in hardware-software integration, which are applicable to embedded development, automation, and systems engineering projects.
 
-
-GPIO Programming using pulse-width modulation (PWM), button input, and LED control
-
-
-State Machine Design for event-driven system behavior
-
-
-Serial Communication concepts and client/server device interaction
-
-
-Sensor Integration using an AHT20 temperature and humidity sensor
-
-
-LCD Display Programming for real-time system output
-
-
-Internet of Things (IoT) Concepts including sensor-driven monitoring and control systems
-
-
-Hardware Troubleshooting and Circuit Design using breadboards and peripheral components
-
-
-Laboratory Highlights
-Course labs built foundational embedded systems skills through practical implementation, including:
-GPIO and PWM Control
-Developed Python programs to control LEDs through digital output and PWM for variable brightness control.
-Serial Communication and Event Handling
-Built client/server programs to simulate device communication and respond to hardware-triggered events.
-State Machine Implementation
-Designed and implemented finite state machines to manage behaviors such as Morse code signaling and control logic.
-LCD and Sensor Integration
-Connected and programmed a 16x2 LCD display and integrated environmental sensing using the AHT20 sensor to display temperature and humidity data.
-Final Project: Smart Thermostat Prototype
-The course culminated in an embedded thermostat system that combined multiple hardware and software concepts into one solution.
-Features included:
-
-
-Default temperature setpoint control
-
-
-Real-time room temperature monitoring
-
-
-Heating and cooling state management
-
-
-LED indicators representing system status
-
-
-Button-driven user interaction for state changes
-
-
-LCD display output for environmental data and system feedback
-
-
-This project emphasized embedded software architecture, event-driven programming, and hardware/software integration.
-What Recruiters May Find Relevant
-This work demonstrates experience with:
-
-
-Embedded programming fundamentals
-
-
-Real-time control logic
-
-
-IoT device prototyping
-
-
-Debugging at both software and hardware levels
-
-
-Translating system requirements into working implementations
-
-
-Developing maintainable solutions in constrained hardware environments
-
-
-Tools Used
-
-
-Raspberry Pi
-
-
-Python
-
-
-Linux / SSH
-
-
-GPIO Libraries
-
-
-AHT20 Sensor
-
-
-16x2 LCD Display
-
-
-Breadboard Circuits and Peripheral Components
-
-
-Note
-This repository represents academic lab work and project artifacts completed as part of Southern New Hampshire University’s Computer Science program, showcasing practical exposure to embedded systems and emerging technologies.
+## How did you make this project maintainable, readable, and adaptable?
+I focused on maintainability and readability through code comments, clear variable naming, logical program structure, and separating functionality into manageable sections tied to system behaviors. Using a state machine model made the logic easier to follow and adapt. The project was also designed to be adaptable by allowing hardware-driven state changes and leaving room for future feature expansion without redesigning the entire system.
